@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "e2e": "npx cypress open"
+    "e2e": "npx cypress open -e CYPRESS_DB_ID=$CYPRESS_DB_ID,CYPRESS_DB_PW=$CYPRESS_DB_PW"
   },
   "author": "",
   "license": "ISC",
